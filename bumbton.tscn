@@ -1,0 +1,34 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://bumbton.gd" type="Script" id=1]
+
+[node name="Panel" type="Panel"]
+margin_left = 79.7342
+margin_top = 26.3927
+margin_right = 235.734
+margin_bottom = 121.393
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="."]
+margin_left = 33.0
+margin_top = 31.2806
+margin_right = 132.0
+margin_bottom = 57.2806
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 42.25
+margin_top = 37.5
+margin_right = 124.25
+margin_bottom = 51.5
+text = "bumberlyton"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
