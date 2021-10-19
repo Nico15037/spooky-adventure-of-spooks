@@ -1,0 +1,34 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://button.gd" type="Script" id=1]
+
+[node name="Panel" type="Panel"]
+margin_left = 455.933
+margin_top = 182.995
+margin_right = 554.933
+margin_bottom = 223.995
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 4.21574
+margin_top = 2.19843
+margin_right = 96.2157
+margin_bottom = 16.1984
+text = "press for milfs"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="."]
+margin_left = 25.5402
+margin_top = 17.5874
+margin_right = 71.5402
+margin_bottom = 37.5874
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
