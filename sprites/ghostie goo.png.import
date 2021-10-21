@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/grass but its really shitty.png-e079f744c88ae917a556d521548cd6f8.stex"
+path="res://.import/ghostie goo.png-c0ea9ae56b7ac565c88fe2ed258e12fd.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://grass but its really shitty.png"
-dest_files=[ "res://.import/grass but its really shitty.png-e079f744c88ae917a556d521548cd6f8.stex" ]
+source_file="res://sprites/ghostie goo.png"
+dest_files=[ "res://.import/ghostie goo.png-c0ea9ae56b7ac565c88fe2ed258e12fd.stex" ]
 
 [params]
 

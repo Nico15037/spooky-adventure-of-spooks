@@ -23,9 +23,9 @@ __meta__ = {
 
 [node name="Label" type="Label" parent="."]
 margin_left = 42.25
-margin_top = 37.5
+margin_top = 37.75
 margin_right = 124.25
-margin_bottom = 51.5
+margin_bottom = 51.75
 text = "bumberlyton"
 __meta__ = {
 "_edit_use_anchors_": false

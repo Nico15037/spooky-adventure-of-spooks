@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/plaug doktor.png-4144bda9f682cb2e3133940a33346c25.stex"
+path="res://.import/plaug doktor.png-ca0abbf234d6df73e48b4a92890c0457.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://plaug doktor.png"
-dest_files=[ "res://.import/plaug doktor.png-4144bda9f682cb2e3133940a33346c25.stex" ]
+source_file="res://sprites/plaug doktor.png"
+dest_files=[ "res://.import/plaug doktor.png-ca0abbf234d6df73e48b4a92890c0457.stex" ]
 
 [params]
 

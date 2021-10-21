@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/spooks.png-bdffc0cb00034a7cc02fbc128d9ceb74.stex"
+path="res://.import/spooks.png-ad7c9b944881aa828c4081204b01a010.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spooks.png"
-dest_files=[ "res://.import/spooks.png-bdffc0cb00034a7cc02fbc128d9ceb74.stex" ]
+source_file="res://sprites/spooks.png"
+dest_files=[ "res://.import/spooks.png-ad7c9b944881aa828c4081204b01a010.stex" ]
 
 [params]
 
