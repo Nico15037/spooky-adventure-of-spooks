@@ -3,30 +3,33 @@
 [ext_resource path="res://button.gd" type="Script" id=1]
 
 [node name="Panel" type="Panel"]
-margin_left = 455.933
-margin_top = 182.995
-margin_right = 554.933
-margin_bottom = 223.995
+margin_left = 456.0
+margin_top = 183.0
+margin_right = 672.0
+margin_bottom = 286.0
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Label" type="Label" parent="."]
-margin_left = 4.21574
-margin_top = 2.19843
-margin_right = 96.2157
-margin_bottom = 16.1984
+margin_left = 62.0
+margin_top = 7.0
+margin_right = 157.0
+margin_bottom = 26.0
+rect_scale = Vector2( 1.37414, 2.19491 )
+rect_pivot_offset = Vector2( 61.5359, 4.32587 )
 text = "press for milfs"
+percent_visible = -0.0769231
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Button" type="Button" parent="."]
-margin_left = 25.5402
-margin_top = 17.5874
-margin_right = 71.5402
-margin_bottom = 37.5874
+margin_left = 29.066
+margin_top = 36.3962
+margin_right = 179.066
+margin_bottom = 89.3962
 __meta__ = {
 "_edit_use_anchors_": false
 }
