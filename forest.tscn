@@ -25,4 +25,4 @@ material/0 = null
 transform = Transform( -0.850839, 0, -0.525427, -0.227212, 0.901667, 0.36793, 0.47376, 0.432432, -0.767173, -6.71947, 45.5933, -38.6535 )
 
 [node name="the spooks space" parent="." instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.86427, 2.02005, -1.02986 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0319326, 2.06364, -0.16088 )
