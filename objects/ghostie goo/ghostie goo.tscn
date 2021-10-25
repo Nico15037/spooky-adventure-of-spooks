@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://objects/spooks/spooks_move.gd" type="Script" id=2]
+[ext_resource path="res://objects/ghostie goo/ghostie goo.png" type="Texture" id=3]
+
+[sub_resource type="BoxShape" id=1]
+extents = Vector3( 0.28572, 0.226002, 0.17 )
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 3 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[node name="the goo grauze" type="Spatial"]
+
+[node name="ghostie\'s goosical goo" type="KinematicBody" parent="."]
+script = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="ghostie\'s goosical goo"]
+shape = SubResource( 1 )
+
+[node name="AnimatedSprite3D" type="AnimatedSprite3D" parent="ghostie\'s goosical goo"]
+frames = SubResource( 2 )
