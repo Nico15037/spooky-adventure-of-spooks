@@ -1,10 +1,7 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://objects/ghostie goo/follow.gd" type="Script" id=1]
 [ext_resource path="res://objects/ghostie goo/ghostie goo.png" type="Texture" id=3]
-
-[sub_resource type="BoxShape" id=1]
-extents = Vector3( 0.28, 0.2, 0.17 )
 
 [sub_resource type="CubeMesh" id=3]
 size = Vector3( 0.56, 0.4, 0.34 )
@@ -22,11 +19,8 @@ animations = [ {
 [node name="ghostie\'s goosical goo" type="KinematicBody" parent="."]
 script = ExtResource( 1 )
 
-[node name="CollisionShape" type="CollisionShape" parent="ghostie\'s goosical goo"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0194447, 0 )
-shape = SubResource( 1 )
-
 [node name="MeshInstance" type="MeshInstance" parent="ghostie\'s goosical goo"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.019, 0 )
 visible = false
 mesh = SubResource( 3 )
 material/0 = null
@@ -35,6 +29,6 @@ material/0 = null
 frames = SubResource( 2 )
 
 [node name="Timer" type="Timer" parent="ghostie\'s goosical goo"]
-autostart = true
+wait_time = 0.5
 
 [connection signal="timeout" from="ghostie's goosical goo/Timer" to="ghostie's goosical goo" method="_on_Timer_timeout"]

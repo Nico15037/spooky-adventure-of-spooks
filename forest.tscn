@@ -49,9 +49,11 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0319326, 0.683232, 6.97299 
 
 [node name="gryass" parent="." instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.73872, -0.101392, 6.36789 )
+visible = false
 
 [node name="gryass2" parent="." instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.27872, -0.101392, 4.89646 )
+visible = false
 
 [node name="SPOOKS STALKERS" type="Navigation" parent="."]
 

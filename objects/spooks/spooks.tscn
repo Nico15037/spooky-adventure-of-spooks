@@ -14,17 +14,15 @@ animations = [ {
 "speed": 5.0
 } ]
 
-[node name="the spooks space" type="Spatial"]
-
-[node name="spooks spiritual body" type="KinematicBody" parent="."]
+[node name="the spooks space" type="KinematicBody"]
 script = ExtResource( 2 )
 
-[node name="CollisionShape" type="CollisionShape" parent="spooks spiritual body"]
+[node name="CollisionShape" type="CollisionShape" parent="."]
 shape = SubResource( 1 )
 
-[node name="AnimatedSprite3D" type="AnimatedSprite3D" parent="spooks spiritual body"]
+[node name="spooks spiritual body" type="AnimatedSprite3D" parent="."]
 frames = SubResource( 2 )
 
-[node name="Camera" type="Camera" parent="spooks spiritual body"]
+[node name="Camera" type="Camera" parent="."]
 transform = Transform( 1, 0, 0, 0, 0.988641, 0.150295, 0, -0.150295, 0.988641, 0, 1.29022, 2.5161 )
 fov = 84.982
