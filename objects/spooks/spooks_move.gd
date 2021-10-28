@@ -7,9 +7,13 @@ export var gravity = 75;
 signal bugle;
 signal bagule;
 
+var can_move = true;
 var velocity = Vector3.ZERO;
 
 func _physics_process(delta):
+	if (can_move == false):
+		return;
+	
 	var dir = Vector3.ZERO;
 	if Input.is_action_pressed("move_right"):
 		dir.x += 1;

@@ -26,7 +26,7 @@ func _physics_process(delta):
 			else: #ngl these lerps do literally nothing
 				speed = lerp(speed,3,0.1);
 			move_and_slide(dir.normalized() * speed, Vector3.UP);
-			print(path_node,path.size())
+			#print(path_node,path.size())
 
 func move_to():
 #	path = nav.get_simple_path(global_transform.origin, player.global_transform.origin);

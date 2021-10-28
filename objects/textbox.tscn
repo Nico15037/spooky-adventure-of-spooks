@@ -1,0 +1,27 @@
+[gd_scene format=2]
+
+[node name="textbox" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_left = 9.15527e-05
+margin_right = 1024.0
+margin_bottom = 600.0
+color = Color( 0.107117, 0.133853, 0.351563, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_right = 1024.0
+margin_bottom = 600.0
+text = "brock & brawl morture
+"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
