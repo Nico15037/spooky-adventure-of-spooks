@@ -10,6 +10,7 @@ signal bagule;
 var nearest_object = [];
 var in_range = false;
 var can_move = true;
+var stop_text_loop = false;
 var velocity = Vector3.ZERO;
 
 func _physics_process(delta):
@@ -43,12 +44,12 @@ func _physics_process(delta):
 	velocity.z = dir.z * speed;
 	
 	move_and_slide(velocity, Vector3.UP);
-		
-
-
 
 func _process(delta):
 	if (can_move == false):
+		if (stop_text_loop == true):
+			can_move = true;
+			stop_text_loop = false;
 		return;
 
 	var objects = get_tree().get_nodes_in_group("interact");
@@ -63,10 +64,12 @@ func _process(delta):
 	var interact_range = nearest_object.interact_range;
 	if nearest_object_pos.distance_to(pos) <= interact_range:
 		in_range = true;
+	else:
+		in_range = false;
 
 	if Input.is_action_just_pressed("ui_accept") && (in_range == true):
 		if nearest_object.has_method("interact"):
 			nearest_object.interact();
 
 func allow_move():
-	can_move = true;
+	stop_text_loop = true;

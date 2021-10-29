@@ -5,6 +5,16 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "The epitaph reads \"I think he's dead(?)\"."
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "allow_move",
+				"target_node_path": "Main/the spooks space"
+			},
+			"event_id": "dialogic_042"
 		}
 	],
 	"metadata": {
