@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=2]
+[gd_scene load_steps=17 format=2]
 
 [ext_resource path="res://objects/spooks/spooks.tscn" type="PackedScene" id=1]
 [ext_resource path="res://decor/gryass/gryass.tscn" type="PackedScene" id=2]
@@ -10,7 +10,6 @@
 [ext_resource path="res://decor/graves/grave dead.tscn" type="PackedScene" id=9]
 [ext_resource path="res://decor/graves/grave dead as hell.tscn" type="PackedScene" id=10]
 [ext_resource path="res://decor/graves/grave spirit.tscn" type="PackedScene" id=11]
-[ext_resource path="res://graveyard.gd" type="Script" id=12]
 
 [sub_resource type="BoxShape" id=1]
 extents = Vector3( 30, 3, 30 )
@@ -190,22 +189,29 @@ transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, -26.3027, 10.9651, -25.4339 )
 [node name="treefault22" parent="SPOOKS STALKERS/NavigationMeshInstance/BIGTREES" instance=ExtResource( 4 )]
 transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 29.485, 10.9651, -24.7117 )
 
-[node name="graveyard" type="Spatial" parent="SPOOKS STALKERS/NavigationMeshInstance" groups=[
-"interact",
-]]
-script = ExtResource( 12 )
+[node name="grave matter" type="Spatial" parent="SPOOKS STALKERS/NavigationMeshInstance"]
 
-[node name="grave matter" parent="SPOOKS STALKERS/NavigationMeshInstance/graveyard" instance=ExtResource( 7 )]
+[node name="clowned" parent="SPOOKS STALKERS/NavigationMeshInstance/grave matter" groups=[
+"interact",
+] instance=ExtResource( 7 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.4873, 2.17187, 25.2049 )
 
-[node name="grave matter2" parent="SPOOKS STALKERS/NavigationMeshInstance/graveyard" instance=ExtResource( 10 )]
+[node name="dead as hell" parent="SPOOKS STALKERS/NavigationMeshInstance/grave matter" groups=[
+"interact",
+] instance=ExtResource( 10 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.3545, 2.17187, 25.3821 )
 
-[node name="grave matter3" parent="SPOOKS STALKERS/NavigationMeshInstance/graveyard" instance=ExtResource( 9 )]
+[node name="dead" parent="SPOOKS STALKERS/NavigationMeshInstance/grave matter" groups=[
+"interact",
+] instance=ExtResource( 9 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.6991, 2.17187, 22.3326 )
 
-[node name="grave matter4" parent="SPOOKS STALKERS/NavigationMeshInstance/graveyard" instance=ExtResource( 8 )]
+[node name="rip" parent="SPOOKS STALKERS/NavigationMeshInstance/grave matter" groups=[
+"interact",
+] instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.051, 2.17187, 22.1232 )
 
-[node name="grave matter5" parent="SPOOKS STALKERS/NavigationMeshInstance/graveyard" instance=ExtResource( 11 )]
+[node name="spirit" parent="SPOOKS STALKERS/NavigationMeshInstance/grave matter" groups=[
+"interact",
+] instance=ExtResource( 11 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.398, 2.17187, 26.1296 )
