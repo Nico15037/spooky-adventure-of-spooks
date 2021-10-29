@@ -6,10 +6,10 @@
 [sub_resource type="BoxShape" id=1]
 extents = Vector3( 0.5, 0.66, 0.17 )
 
-[sub_resource type="BoxShape" id=3]
+[sub_resource type="BoxShape" id=2]
 extents = Vector3( 1, 0.66, 0.34 )
 
-[sub_resource type="SpriteFrames" id=2]
+[sub_resource type="SpriteFrames" id=3]
 animations = [ {
 "frames": [ ExtResource( 1 ) ],
 "loop": true,
@@ -26,10 +26,10 @@ shape = SubResource( 1 )
 [node name="Area" type="Area" parent="."]
 
 [node name="CollisionShape" type="CollisionShape" parent="Area"]
-shape = SubResource( 3 )
+shape = SubResource( 2 )
 
 [node name="spooks spiritual body" type="AnimatedSprite3D" parent="."]
-frames = SubResource( 2 )
+frames = SubResource( 3 )
 
 [node name="Camera" type="Camera" parent="."]
 transform = Transform( 1, 0, 0, 0, 0.988641, 0.150295, 0, -0.150295, 0.988641, 0, 1.29022, 2.5161 )

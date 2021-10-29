@@ -1,0 +1,20 @@
+{
+	"color": "#ff6d6d6d",
+	"description": "beep boop",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1635485695.json",
+	"mirror_portraits": false,
+	"name": "rg",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		}
+	],
+	"scale": 100
+}

@@ -1,0 +1,104 @@
+{
+	"events": [
+		{
+			"character": "character-1635485254.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "THEY'RE IN MY HEAD THEY'RE IN MY FUCKING HEAD"
+		},
+		{
+			"character": "character-1635485452.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "um what"
+		},
+		{
+			"character": "character-1635485254.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "GET THEM OUT GETHTME EOUIT HEGEMTMEHTMHEOTIUT"
+		},
+		{
+			"character": "character-1635485452.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "ummmmm"
+		},
+		{
+			"character": "character-1635485254.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "SHAKEHTME OGHTHSHAKE THEM OUT SHAKETHEM OUT SHAKE THEMOUT"
+		},
+		{
+			"character": "character-1635485452.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "um sir I don't know you I don't normally shake with random people \nthis is a little concerning but okay I guess"
+		},
+		{
+			"condition": "",
+			"definition": "1635485668-648",
+			"event_id": "dialogic_012",
+			"value": "true"
+		},
+		{
+			"character": "character-1635485695.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But don't you shake with me?"
+		},
+		{
+			"character": "character-1635485452.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "well yeah you're my friend not random people\nwe jammin\nwe jivin\nwe GROOVIN\nI don't know this guy tho"
+		},
+		{
+			"emit_signal": "rg_happy_blush",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1635485695.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\tOh! True."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1635485254.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "JUST FUCKING SHAKE ME"
+		},
+		{
+			"character": "character-1635485452.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "OH you mean shake YOU I thought you meant WITH my bad bro"
+		},
+		{
+			"character": "character-1635485254.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "FUCKINGSHAKEME"
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "allow_move",
+				"target_node_path": "Main/the spooks space"
+			},
+			"event_id": "dialogic_042"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1635485295.json",
+		"name": "tm_treesane"
+	}
+}
