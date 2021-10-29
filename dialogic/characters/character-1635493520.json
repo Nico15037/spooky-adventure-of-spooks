@@ -8,12 +8,16 @@
 	"name": "spirit rune",
 	"nickname": "",
 	"nickname_bool": false,
-	"offset_x": 0,
-	"offset_y": 0,
+	"offset_x": -70,
+	"offset_y": -30,
 	"portraits": [
 		{
 			"name": "Default",
-			"path": ""
+			"path": "res://objects/runes/spirit rune.png"
+		},
+		{
+			"name": "spirit rune talk",
+			"path": "res://objects/runes/spirit rune talk.png"
 		}
 	],
 	"scale": 100

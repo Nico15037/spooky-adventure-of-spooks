@@ -1,6 +1,37 @@
 {
 	"events": [
 		{
+			"condition": "",
+			"definition": "1635547723-642",
+			"event_id": "dialogic_012",
+			"value": "true"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "it's a friend factory!!"
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "allow_move",
+				"target_node_path": "Main/the spooks space"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1635547723-642",
+			"event_id": "dialogic_012",
+			"value": "false"
+		},
+		{
 			"character": "character-1635485452.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -22,10 +53,29 @@
 			"event_id": "dialogic_013"
 		},
 		{
+			"action": "join",
+			"character": "character-1635493520.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
 			"character": "character-1635493520.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "spirit siphons aren't graves"
+			"text": "spirit siphons aren't graves\nno need for words"
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1635493520.json",
+			"event_id": "dialogic_003"
 		},
 		{
 			"character": "character-1635485452.json",
@@ -34,10 +84,29 @@
 			"text": "oh hi teeny tiny rock wait how are you talking"
 		},
 		{
+			"action": "join",
+			"character": "character-1635493520.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
 			"character": "character-1635493520.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "I'm a little soul that got leaked out and got stuck inside this rock"
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1635493520.json",
+			"event_id": "dialogic_003"
 		},
 		{
 			"character": "character-1635485452.json",
@@ -46,10 +115,29 @@
 			"text": "oh! is it cool being inside a rock"
 		},
 		{
+			"action": "join",
+			"character": "character-1635493520.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
 			"character": "character-1635493520.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Not really, I never get to travel\nthough it probably doesn't help I've never talked to Clay whenever he comes by"
+			"text": "not really, I never get to travel\nthough it probably doesn't help I've never talked to Clay whenever he comes by"
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1635493520.json",
+			"event_id": "dialogic_003"
 		},
 		{
 			"character": "character-1635485452.json",
@@ -58,10 +146,29 @@
 			"text": "woah wait wanna travel with me little buddy? I've been floating around the forest"
 		},
 		{
+			"action": "join",
+			"character": "character-1635493520.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "spirit rune talk",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
 			"character": "character-1635493520.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Sure!"
+			"portrait": "spirit rune talk",
+			"text": "sure!!"
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1635493520.json",
+			"event_id": "dialogic_003"
 		},
 		{
 			"condition": "==",
@@ -87,6 +194,22 @@
 				"target_node_path": "Main/the spooks space"
 			},
 			"event_id": "dialogic_042"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"definition": "1635547723-642",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "true"
+		},
+		{
+			"event_id": "dialogic_013"
 		}
 	],
 	"metadata": {

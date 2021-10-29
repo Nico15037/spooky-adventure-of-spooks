@@ -8,6 +8,12 @@
 			"name": "rg_party",
 			"type": 0,
 			"value": "false"
+		},
+		{
+			"id": "1635547723-642",
+			"name": "has_spirit_rune",
+			"type": 0,
+			"value": "false"
 		}
 	]
 }

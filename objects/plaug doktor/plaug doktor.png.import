@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/plaug doktor.png-ca0abbf234d6df73e48b4a92890c0457.s3tc.stex"
-path.etc="res://.import/plaug doktor.png-ca0abbf234d6df73e48b4a92890c0457.etc.stex"
+path.s3tc="res://.import/plaug doktor.png-5c8beff805d5bea314528d95ffbc2ba6.s3tc.stex"
+path.etc="res://.import/plaug doktor.png-5c8beff805d5bea314528d95ffbc2ba6.etc.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://sprites/plaug doktor.png"
-dest_files=[ "res://.import/plaug doktor.png-ca0abbf234d6df73e48b4a92890c0457.s3tc.stex", "res://.import/plaug doktor.png-ca0abbf234d6df73e48b4a92890c0457.etc.stex" ]
+source_file="res://objects/plaug doktor/plaug doktor.png"
+dest_files=[ "res://.import/plaug doktor.png-5c8beff805d5bea314528d95ffbc2ba6.s3tc.stex", "res://.import/plaug doktor.png-5c8beff805d5bea314528d95ffbc2ba6.etc.stex" ]
 
 [params]
 
